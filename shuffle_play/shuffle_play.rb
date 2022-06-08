@@ -44,7 +44,8 @@ class ShufflePlayer
   def play_file(file)
     system("Mp3 #{file}")
   end
-end # ShufflePlayer
+end
+# ShufflePlayer
 
 ###
 sp = ShufflePlayer.new(ARGV)
